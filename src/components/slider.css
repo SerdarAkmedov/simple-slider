@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0 25px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 60px;
+    height: 600px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+.title {
+    margin: 0;
+    padding: 0;
+}
+.left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid white;
+    padding: 40px 0;
+}
+.right {
+    /* background: rgb(149, 141, 202); */
+    /* flex: 5; */
+    width: 80%;
+    box-sizing: border-box;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+button {
+    cursor: pointer;
+}
+
+.slider-container {
+    box-sizing: border-box;
+    /* background: pink; */
+    height: 100%;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.cart-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* gap: 20px; */
+    overflow: auto;
+    /* background: pink; */
+    overflow:hidden;
+    box-sizing: border-box;
+    /* transform: translate(-200px); */
+}
+
+
+
+.cart {
+    height: 100%;
+    min-width: 350px;
+    background: pink;
+    /* margin-right: 20px; */
+}
+.img {
+    margin-bottom: 10px;
+    height: 95%;
+    
+}
+.trans {
+gap: 50px;
+transition: all 1s ease-in-out;  
+box-sizing: border-box;  
+/* display: flex; */
+/* flex-direction: column; */
+}
+
+
